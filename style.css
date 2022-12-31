@@ -1,0 +1,48 @@
+#countdown {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+#countdown .time-unit {
+  display: block;
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+#countdown .time-unit.days {
+  color: #f44336;
+}
+
+#countdown .time-unit.hours {
+  color: #ff9800;
+}
+
+#countdown .time-unit.minutes {
+  color: #ffeb3b;
+}
+
+#countdown .time-unit.seconds {
+  color: #4caf50;
+}
+
+#countdown .time-unit-label {
+  display: block;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  color: #999;
+}
+
+canvas{
+    background-color: black;
+    
+}
+
+/*#countdown,
+canvas {
+    height: 50vh;
+    width: 100%;
+}*/
